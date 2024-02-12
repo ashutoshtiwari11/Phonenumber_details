@@ -2,7 +2,7 @@ import phonenumbers
 from phonenumbers import geocoder, carrier, timezone
 
 # Replace 'number' with the actual phone number you want to check
-number = "+919149365604"
+number = "+91***********"
 
 pepnumber = phonenumbers.parse(number, None)
 location = geocoder.description_for_number(pepnumber, "en")
