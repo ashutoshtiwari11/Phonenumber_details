@@ -15,7 +15,8 @@ print(timezone.time_zones_for_geographical_number(service_pro))
 #installed open cage as third party library for exact locatuon
 from opencage.geocoder import OpenCageGeocode
 
-key = "682aef1b8b0a4bdc98ca050fb4f0ea50"
+key = "68**********************"
+#get your own api key from geocoder
 geocoder = OpenCageGeocode(key)
 query = str(location)
 results= geocoder.geocode(query)
